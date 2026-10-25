@@ -1,0 +1,266 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000331] (my_python_pkg) JobQueued: {'identifier': 'my_python_pkg', 'dependencies': OrderedDict()}
+[0.000612] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.007245] (my_python_pkg) JobStarted: {'identifier': 'my_python_pkg'}
+[0.014052] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.014487] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/pau/Project/ros2_course/src/my_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/pau/Project/ros2_course/install/my_cpp_pkg'], 'cwd': '/home/pau/Project/ros2_course/build/my_cpp_pkg', 'env': OrderedDict({'TMUX': '/tmp/tmux-1000/default,55345,0', 'USER': 'pau', 'AI_AGENT': 'claude-code_2-1-310_agent', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'blue': '#82AAFF', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'wayland', 'fg': '#C8D3F5', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'SHLVL': '3', 'CLAUDE_CODE_MESSAGING_TOKEN': 'cf5e2645d649872412e9bbb16ed4d802', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'HOME': '/home/pau', 'OLDPWD': '/home/pau', 'TERMINFO': '/usr/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'TERM_PROGRAM_VERSION': '3.6', 'bg_highlight': '#2F334D', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'KITTY_PID': '55240', 'MANAGERPID': '4471', 'fg_dark': '#828BB8', 'CLAUDE_CODE_CHILD_SESSION': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'SYSTEMD_EXEC_PID': '5022', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '55240', 'CODEX_COMPANION_SESSION_ID': 'f2b4d590-62ef-45c9-a33d-56f2e6342ed6', 'CODEX_COMPANION_TRANSCRIPT_PATH': '/home/pau/.claude/projects/-home-pau-Project-ros2-course/f2b4d590-62ef-45c9-a33d-56f2e6342ed6.jsonl', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'blue1': '#65BCFF', 'ROS_DISTRO': 'lyrical', 'WAYLAND_DISPLAY': 'wayland-0', 'bg': '#222436', 'LOGNAME': 'pau', 'JOURNAL_STREAM': '10:33343', 'MANAGERPIDFDID': '8578', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/3', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'blue5': '#89DDFF', 'KITTY_PUBLIC_KEY': '1:cZJ@Xq{4eJ>mMeZOil1bs~S6O_f-nnPes)$LIiqk', 'TERM': 'tmux-256color', 'USERNAME': 'pau', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'CLAUDE_PLUGIN_DATA': '/home/pau/.claude/plugins/data/codex-openai-codex', 'bg_dark': '#1E2030', 'PATH': '/home/pau/.npm-global/bin:/home/pau/.opencode/bin:/home/pau/.local/bin:/home/pau/.npm-global/bin:/opt/ros/lyrical/bin:/home/pau/.opencode/bin:/home/pau/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pau/.claude/plugins/cache/context-mode/context-mode/1.0.162/bin', 'INVOCATION_ID': 'a350fd77abff45139587d1e1db1155d7', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'cyan': '#86E1FC', 'COREPACK_ENABLE_AUTO_PIN': '0', 'DISPLAY': ':0', 'CLAUDE_EFFORT': 'xhigh', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'NoDefaultCurrentDirectoryInExePath': '1', 'CLAUDE_PID': '81435', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'TERM_PROGRAM': 'tmux', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V68AX3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'fg_gutter': '#3B4261', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'KITTY_WINDOW_ID': '1', 'CLAUDE_CODE_SESSION_ID': 'f2b4d590-62ef-45c9-a33d-56f2e6342ed6', 'bg_dark1': '#191B29', 'yellow': '#FFC777', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'green': '#C3E88D', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/pau/Project/ros2_course/build/my_cpp_pkg', 'orange': '#FF966C', 'red': '#FF757F', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', '_P9K_TTY': '/dev/pts/3', 'CLAUDE_CODE_EXECPATH': '/home/pau/.local/share/claude/versions/2.1.310', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'TMUX_PLUGIN_MANAGER_PATH': '/home/pau/.config/tmux/plugins/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'QT_IM_MODULES': 'wayland;ibus', 'TMUX_PANE': '%7', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical', 'EDITOR': 'nvim', 'comment': '#636DA6', 'purple': '#C099FF', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/1000/cc-socks/81435.sock'}), 'shell': False}
+[0.098686] (-) TimerEvent: {}
+[0.198976] (-) TimerEvent: {}
+[0.285854] (my_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[0.299145] (-) TimerEvent: {}
+[0.356537] (my_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[0.374797] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399305] (-) TimerEvent: {}
+[0.499571] (-) TimerEvent: {}
+[0.509620] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.537288] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.538175] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.538678] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.563646] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599692] (-) TimerEvent: {}
+[0.692653] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.699838] (-) TimerEvent: {}
+[0.725554] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.726039] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.727383] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.753166] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[0.799972] (-) TimerEvent: {}
+[0.856345] (my_python_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_python_pkg', 'build', '--build-base', '/home/pau/Project/ros2_course/build/my_python_pkg/build', 'install', '--record', '/home/pau/Project/ros2_course/build/my_python_pkg/install.log', '--install-scripts', '$base/lib/my_python_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pau/Project/ros2_course/src/my_python_pkg', 'env': OrderedDict({'TMUX': '/tmp/tmux-1000/default,55345,0', 'USER': 'pau', 'AI_AGENT': 'claude-code_2-1-310_agent', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'blue': '#82AAFF', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'wayland', 'fg': '#C8D3F5', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'SHLVL': '3', 'CLAUDE_CODE_MESSAGING_TOKEN': 'cf5e2645d649872412e9bbb16ed4d802', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'HOME': '/home/pau', 'OLDPWD': '/home/pau', 'TERMINFO': '/usr/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'TERM_PROGRAM_VERSION': '3.6', 'bg_highlight': '#2F334D', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'KITTY_PID': '55240', 'MANAGERPID': '4471', 'fg_dark': '#828BB8', 'CLAUDE_CODE_CHILD_SESSION': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'SYSTEMD_EXEC_PID': '5022', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '55240', 'CODEX_COMPANION_SESSION_ID': 'f2b4d590-62ef-45c9-a33d-56f2e6342ed6', 'CODEX_COMPANION_TRANSCRIPT_PATH': '/home/pau/.claude/projects/-home-pau-Project-ros2-course/f2b4d590-62ef-45c9-a33d-56f2e6342ed6.jsonl', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'blue1': '#65BCFF', 'ROS_DISTRO': 'lyrical', 'WAYLAND_DISPLAY': 'wayland-0', 'bg': '#222436', 'LOGNAME': 'pau', 'JOURNAL_STREAM': '10:33343', 'MANAGERPIDFDID': '8578', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/3', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'blue5': '#89DDFF', 'KITTY_PUBLIC_KEY': '1:cZJ@Xq{4eJ>mMeZOil1bs~S6O_f-nnPes)$LIiqk', 'TERM': 'tmux-256color', 'USERNAME': 'pau', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'CLAUDE_PLUGIN_DATA': '/home/pau/.claude/plugins/data/codex-openai-codex', 'bg_dark': '#1E2030', 'PATH': '/home/pau/.npm-global/bin:/home/pau/.opencode/bin:/home/pau/.local/bin:/home/pau/.npm-global/bin:/opt/ros/lyrical/bin:/home/pau/.opencode/bin:/home/pau/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pau/.claude/plugins/cache/context-mode/context-mode/1.0.162/bin', 'INVOCATION_ID': 'a350fd77abff45139587d1e1db1155d7', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'cyan': '#86E1FC', 'COREPACK_ENABLE_AUTO_PIN': '0', 'DISPLAY': ':0', 'CLAUDE_EFFORT': 'xhigh', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'NoDefaultCurrentDirectoryInExePath': '1', 'CLAUDE_PID': '81435', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'TERM_PROGRAM': 'tmux', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V68AX3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'fg_gutter': '#3B4261', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'KITTY_WINDOW_ID': '1', 'CLAUDE_CODE_SESSION_ID': 'f2b4d590-62ef-45c9-a33d-56f2e6342ed6', 'bg_dark1': '#191B29', 'yellow': '#FFC777', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'green': '#C3E88D', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/pau/Project/ros2_course/build/my_python_pkg', 'orange': '#FF966C', 'red': '#FF757F', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', '_P9K_TTY': '/dev/pts/3', 'CLAUDE_CODE_EXECPATH': '/home/pau/.local/share/claude/versions/2.1.310', 'PYTHONPATH': '/home/pau/Project/ros2_course/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'TMUX_PLUGIN_MANAGER_PATH': '/home/pau/.config/tmux/plugins/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'QT_IM_MODULES': 'wayland;ibus', 'TMUX_PANE': '%7', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor', 'EDITOR': 'nvim', 'comment': '#636DA6', 'purple': '#C099FF', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/1000/cc-socks/81435.sock'}), 'shell': False}
+[0.900109] (-) TimerEvent: {}
+[1.000435] (-) TimerEvent: {}
+[1.100747] (-) TimerEvent: {}
+[1.148548] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)\n'}
+[1.164161] (my_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.182980] (my_python_pkg) StdoutLine: {'line': b'creating ../../build/my_python_pkg/my_python_pkg.egg-info\n'}
+[1.183240] (my_python_pkg) StdoutLine: {'line': b'writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO\n'}
+[1.183616] (my_python_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt\n'}
+[1.183865] (my_python_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt\n'}
+[1.184143] (my_python_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt\n'}
+[1.184333] (my_python_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt\n'}
+[1.184508] (my_python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[1.200843] (-) TimerEvent: {}
+[1.202345] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[1.216701] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[1.224387] (my_python_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[1.225440] (my_python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[1.225663] (my_python_pkg) StdoutLine: {'line': b'running build\n'}
+[1.225791] (my_python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.226142] (my_python_pkg) StdoutLine: {'line': b'creating /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[1.226395] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/add_two_ints_server.py -> /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[1.226648] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/__init__.py -> /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[1.226761] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/number_publisher.py -> /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[1.226871] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/robot_news_station.py -> /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[1.226989] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/add_two_ints_client_no_oop.py -> /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[1.227101] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/my_first_node.py -> /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[1.227211] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/number_counter.py -> /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[1.227328] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/smartphone.py -> /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[1.227603] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/add_two_ints_client.py -> /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[1.227718] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/py.typed -> /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[1.227825] (my_python_pkg) StdoutLine: {'line': b'running install\n'}
+[1.232980] (my_python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.240288] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.252119] (my_python_pkg) StdoutLine: {'line': b'creating /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg\n'}
+[1.252374] (my_python_pkg) StdoutLine: {'line': b'copying /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg/add_two_ints_server.py -> /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg\n'}
+[1.252749] (my_python_pkg) StdoutLine: {'line': b'copying /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg/__init__.py -> /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg\n'}
+[1.252883] (my_python_pkg) StdoutLine: {'line': b'copying /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg/number_publisher.py -> /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg\n'}
+[1.253009] (my_python_pkg) StdoutLine: {'line': b'copying /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg/robot_news_station.py -> /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg\n'}
+[1.253244] (my_python_pkg) StdoutLine: {'line': b'copying /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg/add_two_ints_client_no_oop.py -> /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg\n'}
+[1.253575] (my_python_pkg) StdoutLine: {'line': b'copying /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg/my_first_node.py -> /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg\n'}
+[1.253754] (my_python_pkg) StdoutLine: {'line': b'copying /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg/number_counter.py -> /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg\n'}
+[1.253882] (my_python_pkg) StdoutLine: {'line': b'copying /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg/smartphone.py -> /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg\n'}
+[1.254009] (my_python_pkg) StdoutLine: {'line': b'copying /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg/add_two_ints_client.py -> /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg\n'}
+[1.254169] (my_python_pkg) StdoutLine: {'line': b'copying /home/pau/Project/ros2_course/build/my_python_pkg/build/lib/my_python_pkg/py.typed -> /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg\n'}
+[1.254520] (my_python_pkg) StdoutLine: {'line': b'byte-compiling /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg/add_two_ints_server.py to add_two_ints_server.cpython-314.pyc\n'}
+[1.254674] (my_python_pkg) StdoutLine: {'line': b'byte-compiling /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg/__init__.py to __init__.cpython-314.pyc\n'}
+[1.254804] (my_python_pkg) StdoutLine: {'line': b'byte-compiling /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg/number_publisher.py to number_publisher.cpython-314.pyc\n'}
+[1.255013] (my_python_pkg) StdoutLine: {'line': b'byte-compiling /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg/robot_news_station.py to robot_news_station.cpython-314.pyc\n'}
+[1.255222] (my_python_pkg) StdoutLine: {'line': b'byte-compiling /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-314.pyc\n'}
+[1.255637] (my_python_pkg) StdoutLine: {'line': b'byte-compiling /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg/my_first_node.py to my_first_node.cpython-314.pyc\n'}
+[1.256167] (my_python_pkg) StdoutLine: {'line': b'byte-compiling /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg/number_counter.py to number_counter.cpython-314.pyc\n'}
+[1.256663] (my_python_pkg) StdoutLine: {'line': b'byte-compiling /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg/smartphone.py to smartphone.cpython-314.pyc\n'}
+[1.257105] (my_python_pkg) StdoutLine: {'line': b'byte-compiling /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg/add_two_ints_client.py to add_two_ints_client.cpython-314.pyc\n'}
+[1.257653] (my_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.257887] (my_python_pkg) StdoutLine: {'line': b'creating /home/pau/Project/ros2_course/install/my_python_pkg/share/ament_index/resource_index/packages\n'}
+[1.258072] (my_python_pkg) StdoutLine: {'line': b'copying resource/my_python_pkg -> /home/pau/Project/ros2_course/install/my_python_pkg/share/ament_index/resource_index/packages\n'}
+[1.258263] (my_python_pkg) StdoutLine: {'line': b'copying package.xml -> /home/pau/Project/ros2_course/install/my_python_pkg/share/my_python_pkg\n'}
+[1.258396] (my_python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.260326] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.277284] (my_python_pkg) StdoutLine: {'line': b'Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/pau/Project/ros2_course/install/my_python_pkg/lib/python3.14/site-packages/my_python_pkg-0.0.0-py3.14.egg-info\n'}
+[1.277940] (my_python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.301066] (-) TimerEvent: {}
+[1.365188] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[1.369520] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.372678] (my_python_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/pau/Project/ros2_course/install/my_python_pkg/lib/my_python_pkg\n'}
+[1.373211] (my_python_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/pau/Project/ros2_course/install/my_python_pkg/lib/my_python_pkg\n'}
+[1.373344] (my_python_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/pau/Project/ros2_course/install/my_python_pkg/lib/my_python_pkg\n'}
+[1.373489] (my_python_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/pau/Project/ros2_course/install/my_python_pkg/lib/my_python_pkg\n'}
+[1.373615] (my_python_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/pau/Project/ros2_course/install/my_python_pkg/lib/my_python_pkg\n'}
+[1.373758] (my_python_pkg) StdoutLine: {'line': b'Installing py_node script to /home/pau/Project/ros2_course/install/my_python_pkg/lib/my_python_pkg\n'}
+[1.373882] (my_python_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/pau/Project/ros2_course/install/my_python_pkg/lib/my_python_pkg\n'}
+[1.374011] (my_python_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/pau/Project/ros2_course/install/my_python_pkg/lib/my_python_pkg\n'}
+[1.374265] (my_python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/pau/Project/ros2_course/build/my_python_pkg/install.log'\n"}
+[1.401190] (-) TimerEvent: {}
+[1.413784] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.416001] (my_python_pkg) CommandEnded: {'returncode': 0}
+[1.428176] (my_python_pkg) JobEnded: {'identifier': 'my_python_pkg', 'rc': 0}
+[1.501396] (-) TimerEvent: {}
+[1.514554] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.14.1 (/opt/ros/lyrical/share/example_interfaces/cmake)\n'}
+[1.601591] (-) TimerEvent: {}
+[1.701867] (-) TimerEvent: {}
+[1.732121] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done (1.7s)\n'}
+[1.757035] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.798365] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/pau/Project/ros2_course/build/my_cpp_pkg\n'}
+[1.802013] (-) TimerEvent: {}
+[1.809396] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[1.810391] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[1.810458] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pau/Project/ros2_course/build/my_cpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/pau/Project/ros2_course/build/my_cpp_pkg', 'env': OrderedDict({'TMUX': '/tmp/tmux-1000/default,55345,0', 'USER': 'pau', 'AI_AGENT': 'claude-code_2-1-310_agent', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'blue': '#82AAFF', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'wayland', 'fg': '#C8D3F5', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'SHLVL': '3', 'CLAUDE_CODE_MESSAGING_TOKEN': 'cf5e2645d649872412e9bbb16ed4d802', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'HOME': '/home/pau', 'OLDPWD': '/home/pau', 'TERMINFO': '/usr/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'TERM_PROGRAM_VERSION': '3.6', 'bg_highlight': '#2F334D', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'KITTY_PID': '55240', 'MANAGERPID': '4471', 'fg_dark': '#828BB8', 'CLAUDE_CODE_CHILD_SESSION': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'SYSTEMD_EXEC_PID': '5022', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '55240', 'CODEX_COMPANION_SESSION_ID': 'f2b4d590-62ef-45c9-a33d-56f2e6342ed6', 'CODEX_COMPANION_TRANSCRIPT_PATH': '/home/pau/.claude/projects/-home-pau-Project-ros2-course/f2b4d590-62ef-45c9-a33d-56f2e6342ed6.jsonl', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'blue1': '#65BCFF', 'ROS_DISTRO': 'lyrical', 'WAYLAND_DISPLAY': 'wayland-0', 'bg': '#222436', 'LOGNAME': 'pau', 'JOURNAL_STREAM': '10:33343', 'MANAGERPIDFDID': '8578', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/3', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'blue5': '#89DDFF', 'KITTY_PUBLIC_KEY': '1:cZJ@Xq{4eJ>mMeZOil1bs~S6O_f-nnPes)$LIiqk', 'TERM': 'tmux-256color', 'USERNAME': 'pau', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'CLAUDE_PLUGIN_DATA': '/home/pau/.claude/plugins/data/codex-openai-codex', 'bg_dark': '#1E2030', 'PATH': '/home/pau/.npm-global/bin:/home/pau/.opencode/bin:/home/pau/.local/bin:/home/pau/.npm-global/bin:/opt/ros/lyrical/bin:/home/pau/.opencode/bin:/home/pau/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pau/.claude/plugins/cache/context-mode/context-mode/1.0.162/bin', 'INVOCATION_ID': 'a350fd77abff45139587d1e1db1155d7', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'cyan': '#86E1FC', 'COREPACK_ENABLE_AUTO_PIN': '0', 'DISPLAY': ':0', 'CLAUDE_EFFORT': 'xhigh', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'NoDefaultCurrentDirectoryInExePath': '1', 'CLAUDE_PID': '81435', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'TERM_PROGRAM': 'tmux', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V68AX3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'fg_gutter': '#3B4261', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'KITTY_WINDOW_ID': '1', 'CLAUDE_CODE_SESSION_ID': 'f2b4d590-62ef-45c9-a33d-56f2e6342ed6', 'bg_dark1': '#191B29', 'yellow': '#FFC777', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'green': '#C3E88D', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/pau/Project/ros2_course/build/my_cpp_pkg', 'orange': '#FF966C', 'red': '#FF757F', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', '_P9K_TTY': '/dev/pts/3', 'CLAUDE_CODE_EXECPATH': '/home/pau/.local/share/claude/versions/2.1.310', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'TMUX_PLUGIN_MANAGER_PATH': '/home/pau/.config/tmux/plugins/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'QT_IM_MODULES': 'wayland;ibus', 'TMUX_PANE': '%7', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical', 'EDITOR': 'nvim', 'comment': '#636DA6', 'purple': '#C099FF', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/1000/cc-socks/81435.sock'}), 'shell': False}
+[1.902275] (-) TimerEvent: {}
+[1.902836] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] Building CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\n'}
+[1.903205] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\n'}
+[1.904208] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\n'}
+[2.002449] (-) TimerEvent: {}
+[2.102696] (-) TimerEvent: {}
+[2.202980] (-) TimerEvent: {}
+[2.303240] (-) TimerEvent: {}
+[2.403561] (-) TimerEvent: {}
+[2.503912] (-) TimerEvent: {}
+[2.604137] (-) TimerEvent: {}
+[2.704478] (-) TimerEvent: {}
+[2.804708] (-) TimerEvent: {}
+[2.905045] (-) TimerEvent: {}
+[3.005377] (-) TimerEvent: {}
+[3.105734] (-) TimerEvent: {}
+[3.206007] (-) TimerEvent: {}
+[3.306337] (-) TimerEvent: {}
+[3.406678] (-) TimerEvent: {}
+[3.506930] (-) TimerEvent: {}
+[3.607158] (-) TimerEvent: {}
+[3.707380] (-) TimerEvent: {}
+[3.807644] (-) TimerEvent: {}
+[3.907950] (-) TimerEvent: {}
+[4.008286] (-) TimerEvent: {}
+[4.108627] (-) TimerEvent: {}
+[4.208969] (-) TimerEvent: {}
+[4.309322] (-) TimerEvent: {}
+[4.409625] (-) TimerEvent: {}
+[4.509854] (-) TimerEvent: {}
+[4.610153] (-) TimerEvent: {}
+[4.710587] (-) TimerEvent: {}
+[4.810923] (-) TimerEvent: {}
+[4.911266] (-) TimerEvent: {}
+[5.011605] (-) TimerEvent: {}
+[5.111947] (-) TimerEvent: {}
+[5.212281] (-) TimerEvent: {}
+[5.312632] (-) TimerEvent: {}
+[5.412969] (-) TimerEvent: {}
+[5.513246] (-) TimerEvent: {}
+[5.613510] (-) TimerEvent: {}
+[5.713942] (-) TimerEvent: {}
+[5.814541] (-) TimerEvent: {}
+[5.914771] (-) TimerEvent: {}
+[6.015123] (-) TimerEvent: {}
+[6.115479] (-) TimerEvent: {}
+[6.215744] (-) TimerEvent: {}
+[6.315979] (-) TimerEvent: {}
+[6.416292] (-) TimerEvent: {}
+[6.477270] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Linking CXX executable cpp_node\n'}
+[6.516474] (-) TimerEvent: {}
+[6.616725] (-) TimerEvent: {}
+[6.716945] (-) TimerEvent: {}
+[6.729071] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target cpp_node\n'}
+[6.817188] (-) TimerEvent: {}
+[6.917550] (-) TimerEvent: {}
+[7.017780] (-) TimerEvent: {}
+[7.118118] (-) TimerEvent: {}
+[7.218478] (-) TimerEvent: {}
+[7.318779] (-) TimerEvent: {}
+[7.419075] (-) TimerEvent: {}
+[7.519408] (-) TimerEvent: {}
+[7.619756] (-) TimerEvent: {}
+[7.720002] (-) TimerEvent: {}
+[7.820342] (-) TimerEvent: {}
+[7.920639] (-) TimerEvent: {}
+[8.020856] (-) TimerEvent: {}
+[8.121187] (-) TimerEvent: {}
+[8.221529] (-) TimerEvent: {}
+[8.321829] (-) TimerEvent: {}
+[8.422079] (-) TimerEvent: {}
+[8.522299] (-) TimerEvent: {}
+[8.622524] (-) TimerEvent: {}
+[8.722743] (-) TimerEvent: {}
+[8.823081] (-) TimerEvent: {}
+[8.923439] (-) TimerEvent: {}
+[9.023666] (-) TimerEvent: {}
+[9.096054] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] Linking CXX executable robot_news_station\n'}
+[9.123831] (-) TimerEvent: {}
+[9.224055] (-) TimerEvent: {}
+[9.324293] (-) TimerEvent: {}
+[9.331083] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] Built target robot_news_station\n'}
+[9.424459] (-) TimerEvent: {}
+[9.524710] (-) TimerEvent: {}
+[9.625056] (-) TimerEvent: {}
+[9.725288] (-) TimerEvent: {}
+[9.825619] (-) TimerEvent: {}
+[9.925937] (-) TimerEvent: {}
+[10.026273] (-) TimerEvent: {}
+[10.126608] (-) TimerEvent: {}
+[10.226902] (-) TimerEvent: {}
+[10.327240] (-) TimerEvent: {}
+[10.427589] (-) TimerEvent: {}
+[10.527807] (-) TimerEvent: {}
+[10.628147] (-) TimerEvent: {}
+[10.728479] (-) TimerEvent: {}
+[10.828930] (-) TimerEvent: {}
+[10.929160] (-) TimerEvent: {}
+[11.029458] (-) TimerEvent: {}
+[11.129735] (-) TimerEvent: {}
+[11.229957] (-) TimerEvent: {}
+[11.330256] (-) TimerEvent: {}
+[11.430558] (-) TimerEvent: {}
+[11.530753] (-) TimerEvent: {}
+[11.630980] (-) TimerEvent: {}
+[11.731210] (-) TimerEvent: {}
+[11.831542] (-) TimerEvent: {}
+[11.931788] (-) TimerEvent: {}
+[12.032027] (-) TimerEvent: {}
+[12.132374] (-) TimerEvent: {}
+[12.232652] (-) TimerEvent: {}
+[12.332867] (-) TimerEvent: {}
+[12.433132] (-) TimerEvent: {}
+[12.533450] (-) TimerEvent: {}
+[12.560066] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Linking CXX executable smartphone\n'}
+[12.633695] (-) TimerEvent: {}
+[12.733943] (-) TimerEvent: {}
+[12.834285] (-) TimerEvent: {}
+[12.902184] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[12.917684] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[12.920388] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[12.934584] (-) TimerEvent: {}
+[12.936434] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pau/Project/ros2_course/build/my_cpp_pkg'], 'cwd': '/home/pau/Project/ros2_course/build/my_cpp_pkg', 'env': OrderedDict({'TMUX': '/tmp/tmux-1000/default,55345,0', 'USER': 'pau', 'AI_AGENT': 'claude-code_2-1-310_agent', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'blue': '#82AAFF', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'wayland', 'fg': '#C8D3F5', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'SHLVL': '3', 'CLAUDE_CODE_MESSAGING_TOKEN': 'cf5e2645d649872412e9bbb16ed4d802', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'HOME': '/home/pau', 'OLDPWD': '/home/pau', 'TERMINFO': '/usr/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'TERM_PROGRAM_VERSION': '3.6', 'bg_highlight': '#2F334D', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'KITTY_PID': '55240', 'MANAGERPID': '4471', 'fg_dark': '#828BB8', 'CLAUDE_CODE_CHILD_SESSION': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'SYSTEMD_EXEC_PID': '5022', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '55240', 'CODEX_COMPANION_SESSION_ID': 'f2b4d590-62ef-45c9-a33d-56f2e6342ed6', 'CODEX_COMPANION_TRANSCRIPT_PATH': '/home/pau/.claude/projects/-home-pau-Project-ros2-course/f2b4d590-62ef-45c9-a33d-56f2e6342ed6.jsonl', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'blue1': '#65BCFF', 'ROS_DISTRO': 'lyrical', 'WAYLAND_DISPLAY': 'wayland-0', 'bg': '#222436', 'LOGNAME': 'pau', 'JOURNAL_STREAM': '10:33343', 'MANAGERPIDFDID': '8578', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/3', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'blue5': '#89DDFF', 'KITTY_PUBLIC_KEY': '1:cZJ@Xq{4eJ>mMeZOil1bs~S6O_f-nnPes)$LIiqk', 'TERM': 'tmux-256color', 'USERNAME': 'pau', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'CLAUDE_PLUGIN_DATA': '/home/pau/.claude/plugins/data/codex-openai-codex', 'bg_dark': '#1E2030', 'PATH': '/home/pau/.npm-global/bin:/home/pau/.opencode/bin:/home/pau/.local/bin:/home/pau/.npm-global/bin:/opt/ros/lyrical/bin:/home/pau/.opencode/bin:/home/pau/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pau/.claude/plugins/cache/context-mode/context-mode/1.0.162/bin', 'INVOCATION_ID': 'a350fd77abff45139587d1e1db1155d7', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'cyan': '#86E1FC', 'COREPACK_ENABLE_AUTO_PIN': '0', 'DISPLAY': ':0', 'CLAUDE_EFFORT': 'xhigh', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'NoDefaultCurrentDirectoryInExePath': '1', 'CLAUDE_PID': '81435', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'TERM_PROGRAM': 'tmux', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V68AX3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'fg_gutter': '#3B4261', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'KITTY_WINDOW_ID': '1', 'CLAUDE_CODE_SESSION_ID': 'f2b4d590-62ef-45c9-a33d-56f2e6342ed6', 'bg_dark1': '#191B29', 'yellow': '#FFC777', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'green': '#C3E88D', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/pau/Project/ros2_course/build/my_cpp_pkg', 'orange': '#FF966C', 'red': '#FF757F', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', '_P9K_TTY': '/dev/pts/3', 'CLAUDE_CODE_EXECPATH': '/home/pau/.local/share/claude/versions/2.1.310', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'TMUX_PLUGIN_MANAGER_PATH': '/home/pau/.config/tmux/plugins/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'QT_IM_MODULES': 'wayland;ibus', 'TMUX_PANE': '%7', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical', 'EDITOR': 'nvim', 'comment': '#636DA6', 'purple': '#C099FF', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/1000/cc-socks/81435.sock'}), 'shell': False}
+[12.951543] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.951955] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[12.952208] (my_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""\n'}
+[12.952438] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[12.953693] (my_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""\n'}
+[12.953915] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[12.958737] (my_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""\n'}
+[12.959373] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[12.959709] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[12.959952] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[12.960195] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[12.960444] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[12.960681] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[12.960808] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[12.960925] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.fish\n'}
+[12.961040] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[12.961155] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[12.961272] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[12.961388] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[12.961527] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[12.961645] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[12.961787] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[12.961906] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[12.963681] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[12.986556] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[12.987327] (-) EventReactorShutdown: {}

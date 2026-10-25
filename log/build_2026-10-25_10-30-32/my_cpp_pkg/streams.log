@@ -1,0 +1,27 @@
+[0.026s] Invoking command in '/home/pau/Project/ros2_course/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/pau/Project/ros2_course/build/my_cpp_pkg -- -j12 -l12
+[0.138s] [ 33%] Built target robot_news_station
+[0.144s] [100%] Built target smartphone
+[0.144s] [100%] Built target cpp_node
+[0.331s] Invoked command in '/home/pau/Project/ros2_course/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/pau/Project/ros2_course/build/my_cpp_pkg -- -j12 -l12
+[0.350s] Invoking command in '/home/pau/Project/ros2_course/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/pau/Project/ros2_course/build/my_cpp_pkg
+[0.366s] -- Install configuration: ""
+[0.367s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[0.367s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[0.367s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[0.368s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.368s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.368s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.368s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.368s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[0.368s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[0.369s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[0.369s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.fish
+[0.369s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[0.369s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[0.369s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[0.369s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[0.369s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[0.369s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[0.369s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[0.370s] -- Up-to-date: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[0.372s] Invoked command in '/home/pau/Project/ros2_course/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/pau/Project/ros2_course/build/my_cpp_pkg

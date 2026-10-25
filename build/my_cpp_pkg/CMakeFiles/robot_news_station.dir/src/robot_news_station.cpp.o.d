@@ -1,5 +1,5 @@
 CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o: \
- /home/pau/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp \
+ /home/pau/Project/ros2_course/src/my_cpp_pkg/src/robot_news_station.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/15/csignal \

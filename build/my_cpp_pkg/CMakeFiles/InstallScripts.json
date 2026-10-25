@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/pau/ros2_ws/build/my_cpp_pkg/cmake_install.cmake"
+		"/home/pau/Project/ros2_course/build/my_cpp_pkg/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

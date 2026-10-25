@@ -2,7 +2,7 @@
 
 # since this file is sourced use the destination set at configure time
 # and override it with COLCON_CURRENT_PREFIX when provided
-set -l AMENT_CURRENT_PREFIX "/home/pau/ros2_ws/install/my_cpp_pkg"
+set -l AMENT_CURRENT_PREFIX "/home/pau/Project/ros2_course/install/my_cpp_pkg"
 if test -n "$COLCON_CURRENT_PREFIX"
     set AMENT_CURRENT_PREFIX "$COLCON_CURRENT_PREFIX"
 end

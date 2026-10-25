@@ -1,0 +1,63 @@
+[0.015s] Invoking command in '/home/pau/Project/ros2_course/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /home/pau/Project/ros2_course/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/pau/Project/ros2_course/install/my_cpp_pkg
+[0.285s] -- The C compiler identification is GNU 15.2.0
+[0.356s] -- The CXX compiler identification is GNU 15.2.0
+[0.374s] -- Detecting C compiler ABI info
+[0.509s] -- Detecting C compiler ABI info - done
+[0.537s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.538s] -- Detecting C compile features
+[0.538s] -- Detecting C compile features - done
+[0.563s] -- Detecting CXX compiler ABI info
+[0.692s] -- Detecting CXX compiler ABI info - done
+[0.725s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.725s] -- Detecting CXX compile features
+[0.727s] -- Detecting CXX compile features - done
+[0.753s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.148s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[1.202s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[1.216s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[1.240s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.365s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[1.369s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.413s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.514s] -- Found example_interfaces: 0.14.1 (/opt/ros/lyrical/share/example_interfaces/cmake)
+[1.732s] -- Configuring done (1.7s)
+[1.757s] -- Generating done (0.0s)
+[1.798s] -- Build files have been written to: /home/pau/Project/ros2_course/build/my_cpp_pkg
+[1.809s] Invoked command in '/home/pau/Project/ros2_course/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /home/pau/Project/ros2_course/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/pau/Project/ros2_course/install/my_cpp_pkg
+[1.810s] Invoking command in '/home/pau/Project/ros2_course/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/pau/Project/ros2_course/build/my_cpp_pkg -- -j12 -l12
+[1.902s] [ 16%] Building CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o
+[1.903s] [ 33%] Building CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o
+[1.904s] [ 50%] Building CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o
+[6.477s] [ 66%] Linking CXX executable cpp_node
+[6.729s] [ 66%] Built target cpp_node
+[9.096s] [ 83%] Linking CXX executable robot_news_station
+[9.331s] [ 83%] Built target robot_news_station
+[12.560s] [100%] Linking CXX executable smartphone
+[12.902s] [100%] Built target smartphone
+[12.917s] Invoked command in '/home/pau/Project/ros2_course/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/pau/Project/ros2_course/build/my_cpp_pkg -- -j12 -l12
+[12.936s] Invoking command in '/home/pau/Project/ros2_course/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/pau/Project/ros2_course/build/my_cpp_pkg
+[12.951s] -- Install configuration: ""
+[12.951s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[12.952s] -- Set non-toolchain portion of runtime path of "/home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[12.952s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[12.953s] -- Set non-toolchain portion of runtime path of "/home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[12.953s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[12.959s] -- Set non-toolchain portion of runtime path of "/home/pau/Project/ros2_course/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[12.959s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[12.959s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[12.960s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[12.960s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[12.960s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[12.960s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[12.960s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[12.960s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.fish
+[12.960s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[12.961s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[12.961s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[12.961s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[12.961s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[12.961s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[12.961s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[12.961s] -- Installing: /home/pau/Project/ros2_course/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[12.963s] Invoked command in '/home/pau/Project/ros2_course/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/pau/Project/ros2_course/build/my_cpp_pkg

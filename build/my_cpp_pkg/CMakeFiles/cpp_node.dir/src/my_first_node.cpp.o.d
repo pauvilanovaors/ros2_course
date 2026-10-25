@@ -1,5 +1,5 @@
 CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o: \
- /home/pau/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp \
+ /home/pau/Project/ros2_course/src/my_cpp_pkg/src/my_first_node.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/15/csignal \

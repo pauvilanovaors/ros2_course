@@ -18,11 +18,9 @@ my_python_pkg/number_publisher.py
 my_python_pkg/py.typed
 my_python_pkg/robot_news_station.py
 my_python_pkg/smartphone.py
-my_python_pkg.egg-info/PKG-INFO
-my_python_pkg.egg-info/SOURCES.txt
-my_python_pkg.egg-info/dependency_links.txt
-my_python_pkg.egg-info/entry_points.txt
-my_python_pkg.egg-info/requires.txt
-my_python_pkg.egg-info/top_level.txt
-my_python_pkg.egg-info/zip-safe
 resource/my_python_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_mypy.py
+test/test_pep257.py
+test/test_xmllint.py
