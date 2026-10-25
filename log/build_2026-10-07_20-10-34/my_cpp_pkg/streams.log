@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/pau/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/pau/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.056s] [ 33%] Built target robot_news_station
+[0.059s] [ 66%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[0.059s] [ 83%] Built target cpp_node
+[4.972s] [100%] [1m[32mLinking CXX executable smartphone[0m
+[5.179s] [100%] Built target smartphone
+[5.188s] Invoked command in '/home/pau/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/pau/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[5.197s] Invoking command in '/home/pau/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/pau/ros2_ws/build/my_cpp_pkg
+[5.203s] -- Install configuration: ""
+[5.203s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[5.203s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[5.204s] -- Installing: /home/pau/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[5.207s] -- Set non-toolchain portion of runtime path of "/home/pau/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[5.207s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[5.207s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[5.207s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[5.207s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[5.207s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[5.207s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[5.207s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[5.207s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.fish
+[5.207s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[5.207s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[5.208s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[5.208s] -- Installing: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[5.208s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[5.208s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[5.208s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[5.208s] -- Up-to-date: /home/pau/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[5.209s] Invoked command in '/home/pau/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/pau/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/home/pau/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pau/ros2_ws/install/my_python_pkg:/opt/ros/lyrical /usr/bin/cmake --build /home/pau/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.065s] [ 50%] Built target cpp_node
+[0.073s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.552s] [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[1.552s]    26 |         [01;31m[Krclcpp[m[K:Publisher<example_interfaces::msg::String>::SharedPtr publisher_;
+[1.552s]       |         [01;31m[K^~~~~~[m[K
+[1.557s] [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KRobotNewsStationNode::[01;32m[KRobotNewsStationNode[m[K()[m[K’:
+[1.557s] [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:11:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KpublishNews[m[K’?
+[1.557s]    11 |             [01;31m[Kpublisher_[m[K = this->create_publisher<example_interfaces::msg::String>("robot_news", 10);
+[1.557s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.558s]       |             [32m[KpublishNews[m[K
+[1.575s] [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In member function ‘[01m[Kvoid RobotNewsStationNode::[01;32m[KpublishNews[m[K()[m[K’:
+[1.575s] [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KpublishNews[m[K’?
+[1.575s]    23 |             [01;31m[Kpublisher_[m[K->publish(msg);
+[1.575s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.575s]       |             [32m[KpublishNews[m[K
+[2.689s] gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:79: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
+[2.689s] gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/robot_news_station.dir/all] Error 2
+[2.689s] gmake: *** [Makefile:146: all] Error 2
+[2.691s] Invoked command in '/home/pau/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pau/ros2_ws/install/my_python_pkg:/opt/ros/lyrical /usr/bin/cmake --build /home/pau/ros2_ws/build/my_cpp_pkg -- -j12 -l12

@@ -1,0 +1,21 @@
+[0.627s] Invoking command in '/home/pau/ros2_ws/build/my_python_pkg': PYTHONPATH=/home/pau/ros2_ws/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pau/ros2_ws/install/my_python_pkg/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pau/ros2_ws/build/my_python_pkg/build --no-deps symlink_data
+[0.804s] running develop
+[0.889s] running egg_info
+[0.899s] writing my_python_pkg.egg-info/PKG-INFO
+[0.899s] writing dependency_links to my_python_pkg.egg-info/dependency_links.txt
+[0.899s] writing entry points to my_python_pkg.egg-info/entry_points.txt
+[0.899s] writing requirements to my_python_pkg.egg-info/requires.txt
+[0.899s] writing top-level names to my_python_pkg.egg-info/top_level.txt
+[0.920s] reading manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[0.921s] writing manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[0.931s] running build_ext
+[0.931s] Creating /home/pau/ros2_ws/install/my_python_pkg/lib/python3.14/site-packages/my-python-pkg.egg-link (link to .)
+[0.932s] Installing number_counter script to /home/pau/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[0.932s] Installing number_publisher script to /home/pau/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[0.932s] Installing py_node script to /home/pau/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[0.932s] Installing robot_news_station script to /home/pau/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[0.932s] Installing smartphone script to /home/pau/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[0.932s] 
+[0.932s] Installed /home/pau/ros2_ws/build/my_python_pkg
+[0.932s] running symlink_data
+[0.957s] Invoked command in '/home/pau/ros2_ws/build/my_python_pkg' returned '0': PYTHONPATH=/home/pau/ros2_ws/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pau/ros2_ws/install/my_python_pkg/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pau/ros2_ws/build/my_python_pkg/build --no-deps symlink_data

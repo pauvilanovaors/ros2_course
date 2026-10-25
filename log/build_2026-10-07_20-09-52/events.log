@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.000294] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000464] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.006210] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.006590] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.006897] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pau/ros2_ws/build/my_cpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/pau/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'USER': 'pau', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/pau', 'OLDPWD': '/home/pau/ros2_ws/src', 'TERMINFO': '/usr/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '4515', 'KITTY_PID': '13855', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SYSTEMD_EXEC_PID': '5060', 'P9K_TTY': 'old', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13855', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'pau', '_': '/usr/bin/colcon', 'MANAGERPIDFDID': '12630', 'JOURNAL_STREAM': '10:37247', '_P9K_SSH_TTY': '/dev/pts/0', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'pau', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:bJ8O;RoN7-J{%K=e8Y@;vQ6p0L+>N&2n6I?byB_p', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/pau/.npm-global/bin:/opt/ros/lyrical/bin:/home/pau/.opencode/bin:/home/pau/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'babf1747b9db463680123bc710733c50', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LWM4W3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '7', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/pau/ros2_ws/build/my_cpp_pkg', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', '_P9K_TTY': '/dev/pts/0', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[0.053760] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] Built target cpp_node\n'}
+[0.054567] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target robot_news_station\n'}
+[0.055468] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[0.099589] (-) TimerEvent: {}
+[0.199873] (-) TimerEvent: {}
+[0.300247] (-) TimerEvent: {}
+[0.400612] (-) TimerEvent: {}
+[0.500902] (-) TimerEvent: {}
+[0.601172] (-) TimerEvent: {}
+[0.701529] (-) TimerEvent: {}
+[0.801771] (-) TimerEvent: {}
+[0.902077] (-) TimerEvent: {}
+[1.002353] (-) TimerEvent: {}
+[1.102690] (-) TimerEvent: {}
+[1.203057] (-) TimerEvent: {}
+[1.303323] (-) TimerEvent: {}
+[1.403685] (-) TimerEvent: {}
+[1.469244] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22\x1b[m\x1b[K,\n'}
+[1.469421] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[1.469496] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173\x1b[m\x1b[K,\n'}
+[1.469561] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pau/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:1\x1b[m\x1b[K:\n'}
+[1.469621] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pau/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SmartphoneNode::\x1b[01;32m\x1b[KcallbackRobotNews\x1b[m\x1b[K(example_interfaces::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.469686] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pau/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:22:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst example_interfaces::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<example_interfaces::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.469751] (my_cpp_pkg) StderrLine: {'line': b'   22 |             RCLCPP_INFO(this->get_logger(), "Message from Robot News: %s", msg.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.c_str());\n'}
+[1.469812] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.503807] (-) TimerEvent: {}
+[1.604130] (-) TimerEvent: {}
+[1.704486] (-) TimerEvent: {}
+[1.804763] (-) TimerEvent: {}
+[1.904998] (-) TimerEvent: {}
+[2.005267] (-) TimerEvent: {}
+[2.105561] (-) TimerEvent: {}
+[2.205919] (-) TimerEvent: {}
+[2.306150] (-) TimerEvent: {}
+[2.406429] (-) TimerEvent: {}
+[2.506783] (-) TimerEvent: {}
+[2.607033] (-) TimerEvent: {}
+[2.707303] (-) TimerEvent: {}
+[2.807597] (-) TimerEvent: {}
+[2.907920] (-) TimerEvent: {}
+[3.008155] (-) TimerEvent: {}
+[3.029377] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:79: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1\n'}
+[3.029548] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/smartphone.dir/all] Error 2\n'}
+[3.029739] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.032059] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[3.044518] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[3.055061] (-) EventReactorShutdown: {}

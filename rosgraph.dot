@@ -1,0 +1,16 @@
+digraph graphname {
+	graph [bb="0,0,112.94,36",
+		compound=true,
+		rank=same,
+		rankdir=LR,
+		ranksep=0.2
+	];
+	node [label="\N"];
+	n___cpp_test	[URL=__cpp_test,
+		height=0.5,
+		label="/cpp_test",
+		pos="56.469,18",
+		shape=ellipse,
+		tooltip="/cpp_test",
+		width=1.5686];
+}

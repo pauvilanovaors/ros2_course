@@ -1,0 +1,15 @@
+[01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:[m[K In constructor ‘[01m[KSmartphoneNode::[01;32m[KSmartphoneNode[m[K()[m[K’:
+[01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:9:47:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KSmartphoneNode[m[K’ does not have any field named ‘[01m[Krobot_name_[m[K’
+    9 |         SmartphoneNode(): Node("smartphone"), [01;31m[Krobot_name_[m[K("P2D2")
+      |                                               [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:1[m[K:
+[01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:[m[K In member function ‘[01m[Kvoid SmartphoneNode::[01;32m[KcallbackRobotNews[m[K(example_interfaces::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:22:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst example_interfaces::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<example_interfaces::msg::String_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   22 |             RCLCPP_INFO(this->get_logger(), "Message from Robot News: %s", msg.[01;31m[Kdata[m[K.c_str());
+      |                                                                                [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:79: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/smartphone.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

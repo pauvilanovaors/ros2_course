@@ -1,0 +1,30 @@
+[0.015s] Invoking command in '/home/pau/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pau/ros2_ws/install/my_python_pkg:/opt/ros/lyrical /usr/bin/cmake --build /home/pau/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.515s] [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In constructor ‘[01m[KMyNode::[01;32m[KMyNode[m[K()[m[K’:
+[1.515s] [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:9:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktimer_[m[K’
+[1.515s]     9 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(1)
+[1.515s]       |             [01;31m[K^~~~~~[m[K
+[1.515s] [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:10:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kstd[m[K’
+[1.515s]    10 |                                              [01;31m[Kstd[m[K::bind(&MyNode::timerCallback, this));
+[1.515s]       |                                              [01;31m[K^~~[m[K
+[1.515s] [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:9:45:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.515s]     9 |             timer_ = this->create_wall_timer[01;36m[K([m[Kstd::chrono::seconds(1)
+[1.515s]       |                                             [01;36m[K^[m[K
+[1.515s] [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:9:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMyNode::create_wall_timer(std::chrono::seconds)[m[K’
+[1.515s]     9 |             timer_ = [01;31m[Kthis->create_wall_timer(std::chrono::seconds(1)[m[K
+[1.515s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.516s]    10 | [01;31m[K                                             std[m[K::bind(&MyNode::timerCallback, this));
+[1.516s]       |                                              [01;31m[K~~~[m[K
+[1.516s] [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:9:45:[m[K [01;36m[Knote: [m[Kthere is 1 candidate
+[1.516s] In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:27[m[K,
+[1.516s]                  from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.516s]                  from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:174[m[K,
+[1.516s]                  from [01m[K/home/pau/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[1.516s] [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/node.hpp:242:3:[m[K [01;36m[Knote: [m[Kcandidate 1: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_wall_timer[m[K(std::chrono::duration<_Rep1, _Period1>, CallbackT, const rclcpp::CallbackGroup::SharedPtr&, bool)[m[K’
+[1.516s]   242 |   [01;36m[Kcreate_wall_timer[m[K(
+[1.516s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.516s] [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/node.hpp:242:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[2.202s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:79: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[2.202s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/cpp_node.dir/all] Error 2
+[2.202s] gmake: *** [Makefile:146: all] Error 2
+[2.205s] Invoked command in '/home/pau/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pau/ros2_ws/install/my_python_pkg:/opt/ros/lyrical /usr/bin/cmake --build /home/pau/ros2_ws/build/my_cpp_pkg -- -j12 -l12
